@@ -5,9 +5,9 @@ Endpoints:
 //// CLIENTE
 
 - Cadastrar cliente
-	tipo: POST
-	url: http://localhost:8080/api/cliente
-	json: {
+	.tipo: POST
+	.url: http://localhost:8080/api/cliente
+	.json: {
 	"nome":"Taua Oliveira",
 	"sexo":"M",
 	"dataNascimento":"10/10/1995",
@@ -16,9 +16,9 @@ Endpoints:
 	}
 
 - Alterar nome do cliente obs *obrigatório passar o id do cliente
-	tipo: PATCH
-	url: http://localhost:8080/api/cliente
-	json: {
+	.tipo: PATCH
+	.url: http://localhost:8080/api/cliente
+	.json: {
 	"id":1
 	"nome":"Yuri",
 	"sexo":"M",
@@ -28,23 +28,23 @@ Endpoints:
 	}
 
 - Consultar cliente pelo id
-	tipo: GET
-	url: http://localhost:8080/api/cliente/find-by-id/{id}
+	.tipo: GET
+	.url: http://localhost:8080/api/cliente/find-by-id/{id}
 
 - Consultar cliente pelo nome
-	tipo: GET
-	url: http://localhost:8080/api/cliente/find-by-nome/{nome}
+	.tipo: GET
+	.url: http://localhost:8080/api/cliente/find-by-nome/{nome}
 
 - Deletar cliente pelo id
-	tipo: DELETE
-	url:http://localhost:8080/api/cliente/{id}
+	.tipo: DELETE
+	.url:http://localhost:8080/api/cliente/{id}
 
 //// CIDADE
 
 - Cadastrar cidade
-	tipo: POST
-	url:http://localhost:8080/api/cidade
-	json: {
+	.tipo: POST
+	.url:http://localhost:8080/api/cidade
+	.json: {
 	"nome":"Salvador",
 	"estado":"Bahia"
 	}
